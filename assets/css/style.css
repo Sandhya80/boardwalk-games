@@ -1,6 +1,5 @@
 /* Google fonts */
 /* Inter and Macondo */
-/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
 /* CSS Variables */
@@ -26,10 +25,10 @@ h1, h2, h3 {
 }
 
 /* Grid visualization styles for testing */
-.container, .row {
+/*.container, .row {
     border: 2px solid black;
 }
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
