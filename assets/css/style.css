@@ -31,8 +31,7 @@ h2 {
     color: var(--highlight-color);
 }
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem; /* Adjust for fixed navbar height and to prevent navbar overlapping */
 }
 /* Services section */
 #services .card-footer {
