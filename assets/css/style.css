@@ -64,6 +64,9 @@ h2 {
     background-color: var(--highlight-color);
     color: white;    
 }
+table {
+    border: 2px solid var(--highlight-color);
+}
 
 
 /* Navbar */
