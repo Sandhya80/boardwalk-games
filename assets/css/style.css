@@ -33,6 +33,20 @@ h2 {
 .section {
     padding-top: 4rem; /* Adjust for fixed navbar height and to prevent navbar overlapping */
 }
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);    
+}
+#navbar .logo {
+    width: 30px;
+}
+
+/* Header */
+#header .lead {
+    color: var(--secondary-color);    
+}
+
 /* Services section */
 #services .card-footer {
     background-color: transparent;
@@ -68,18 +82,20 @@ table {
     border: 2px solid var(--highlight-color);
 }
 
-
-/* Navbar */
-.navbar {
-    background-color: var(--primary-color);    
-}
-#navbar .logo {
-    width: 30px;
+/* Events section */
+#events .table {
+    font-size: 0.7rem;
 }
 
-/* Header */
-#header .lead {
-    font-family: var(--secondary-color);    
+.student-discount {
+    font-weight: bold;
+    background-color: var(--highlight-color-light);
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
 }
 
 /* Game library cards */
@@ -110,6 +126,8 @@ table {
 #contact .social-links {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 #contact .social-links i:hover {
@@ -118,14 +136,6 @@ table {
 #contact .table-dark * {
     background-color: transparent;
 }
-/* Grid visualization styles for testing */
-/*.container, .row {
-    border: 2px solid black;
-}
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media queries for responsiveness */
 /* Medium devices (tablets, 768px and up) */
@@ -156,6 +166,3 @@ table {
         min-height: 195px;
     }  
 }
-
-
-
