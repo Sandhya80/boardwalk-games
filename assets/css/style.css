@@ -15,6 +15,7 @@
 /* Global styles */
 body {
     font-family: var(--primary-font);
+    padding-top: 57.15px; /* Adjust for fixed navbar height */
 }
 h1, h2, h3 {
     font-family: var(--secondary-font);
